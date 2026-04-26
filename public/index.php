@@ -27,7 +27,7 @@ $cats = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="grid">
         <?php foreach ($cats as $cat): ?>
             <div class="card">
-                <img src="/storage/cats/<?php echo $cat['photo']; ?>">
+                <img src="storage/cats/<?php echo $cat['photo']; ?>">
 
                <div><h3><?= $cat['name'] ?></h3></div>
             </div>
